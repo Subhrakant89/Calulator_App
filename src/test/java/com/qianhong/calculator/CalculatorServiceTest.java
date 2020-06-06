@@ -22,6 +22,11 @@ public class CalculatorServiceTest {
     public void testSub() {
         assertEquals(4, new CalculatorService().Sub(12, 8).getResult());
     }
+    
+    @Test
+    public void testSub1() {
+        assertEquals(4, new CalculatorService().Sub(12, 8).getResult());
+    }
 
     @Test
     public void testMul() {
