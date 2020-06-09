@@ -20,7 +20,7 @@ public class CalculatorServiceTest {
 
     @Test
     public void testSub() {
-        assertEquals(1, new CalculatorService().Sub(12, 10).getResult());
+        assertEquals(2, new CalculatorService().Sub(12, 10).getResult());
     }
     
     @Test
