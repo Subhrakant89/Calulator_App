@@ -35,6 +35,6 @@ public class CalculatorServiceTest {
 
     @Test
     public void testDiv() {
-        assertEquals(1, new CalculatorService().Div(12, 12).getResult());
+        assertEquals(1, new CalculatorService().Div(13, 13).getResult());
     }
 }
