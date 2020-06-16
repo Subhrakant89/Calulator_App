@@ -15,7 +15,7 @@ public class CalculatorServiceTest {
 
     @Test
     public void testAdd() {
-        assertEquals(38, new CalculatorService().Add(8, 30).getResult());
+        assertEquals(48, new CalculatorService().Add(8, 40).getResult());
     }
 
     @Test
